@@ -1,9 +1,11 @@
+import Weather from "./components/Weather/weather";
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>commit</h1>
-    </div>
+      <div className="App">
+        <Weather/>
+      </div>
   );
 }
 
